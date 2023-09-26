@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Editing Navigition ---------------------------------------------------------- */
+nav{
+    margin: 0;
+    padding: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dc2626;
+    padding-bottom: 4vh;
+    border-radius:  0% 0% 25% 25%;
+    -webkit-border-radius:  0% 0% 25% 25%;
+    -moz-border-radius:  0% 0% 25% 25%;
+    -ms-border-radius:  0% 0% 25% 25%;
+    -o-border-radius:  0% 0% 25% 25%;
+}
+.name{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+nav .Nav{
+    display: flex;
+}
+nav li{
+
+    list-style: none;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+nav a:link {
+    color: white;
+  }
+  
+ nav a:visited {
+    color: white;
+    background-color: #dc2626;
+  }
+  
+  nav a:focus {
+    text-decoration: none;
+    background: white;
+    
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    border: 20% solid white ;
+  }
+  
+  nav a:active {
+    background: #dc2626;
+    font-weight: 900;
+    
+  }
+
+  @media(max-width:600px){
+
+    nav{
+        margin: 0;
+        padding: 0;
+        margin-right: 0%;
+        margin-left: 0%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #dc2626;
+        padding-bottom: 4vh;
+        border-radius:  0% 0% 25% 25%;
+        -webkit-border-radius:  0% 0% 25% 25%;
+        -moz-border-radius:  0% 0% 25% 25%;
+        -ms-border-radius:  0% 0% 25% 25%;
+        -o-border-radius:  0% 0% 25% 25%;
+    }
+
+    .name{
+        color: white;
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 3.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+  }
+  /*-----------------------------------------------------------------------------------------*/
+
+  /*Image Editing --------------------------------------------------------------------------*/
+
+.image img{
+    margin-top: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+@media(max-width:600px){
+
+    .image img{
+        margin-top: 5%;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      }
+
+}
+/*-----------------------------------------------------------------------------------------*/
+
+/*Name Editing-----------------------------------------------------------------------------*/
+#devcont{
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(49, 44, 44, 0.849);
+}
+#devcontin{
+    color: #dc2626;
+}
+@media(max-width:600px){
+
+    #devcont{
+        text-align: center;
+        font-size: 8.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(49, 44, 44, 0.849);
+    }
+    #devcontin{
+        color: #dc2626;
+    }
+    
+
+}
+/*----------------------------------------------------------------------------------------*/
+/*Container styling----------------------------------------------------------------------*/
+.container{
+
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    
+    margin-bottom: 20%;
+
+}
+.incontainer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+    
+
+}
+.btn1{
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 7vh;
+    margin-bottom: 5%;
+    background: transparent;
+    background-color: #dc2626;
+    border: none;
+}
+.btn2{
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 7vh;
+    margin-bottom: 5%;
+    background: transparent;
+    background-color: rgba(49, 44, 44, 0.849);
+    border: none;
+}
+.btn1 a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: white;
+    
+    
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: white
+}
+#incont1{
+    background-color: #dc2626;
+    color: white;
+}
+#incont2{
+    background-color: rgba(196, 192, 192, 0.747);
+}
+#incont3{
+    background-color: #dc2626;
+    color: white;
+
+}
+@media(max-width:600px) {
+
+    .incontainer{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+        
+        
+    
+    }
+
+
+    
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*foorter styling-------------------------------------------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #dc2626;
+    border-radius:  25% 25% 0% 0%;
+    -webkit-border-radius:  25% 25% 0% 0%;
+    -moz-border-radius:  25% 25% 0% 0%;
+    -ms-border-radius:  25% 25% 0% 0%;
+    -o-border-radius:  25% 25% 0% 0%;
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    overflow: hidden;
+    
+}
+footer div{
+    margin: 0;
+}
+footer h2{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+footer a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 2vw;
+    padding-bottom: 3vh;
+}
+
+@media(max-width:600px){
+    footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color: #dc2626;
+    border-radius:  25% 25% 0% 0%;
+    -webkit-border-radius:  25% 25% 0% 0%;
+    -moz-border-radius:  25% 25% 0% 0%;
+    -ms-border-radius:  25% 25% 0% 0%;
+    -o-border-radius:  25% 25% 0% 0%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+
+    }
+    footer h2{
+        color: white;
+        font-size: 4.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    footer a{
+        text-decoration: none;
+        font-size: 3.5vw;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        padding: 2vw;
+        padding-bottom: 3vh;
+    }
+}
+/*---------------------------------------------------------------------------------------*/
